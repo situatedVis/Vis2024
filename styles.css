@@ -5,12 +5,13 @@ html,body{
 
 #central-body{
     margin: auto;
+    margin: 5px;
     width: 50vw;
 }
 
 @media (max-width: 480px) {
     #central-body{
-        width: 50vw;
+        width: calc(100vw - 10px);
     }
 }
 
