@@ -1,0 +1,38 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+#central-body{
+    margin: auto;
+    width: 50vw;
+}
+
+@media (max-width: 480px) {
+    #central-body{
+        width: 50vw;
+    }
+}
+
+
+
+header{
+    width: calc(100% - 2px);
+    font-size: 24px;
+    background-color: #008080;
+    padding: 10px 0;
+    color: #black;
+    border: black 1px solid;
+}
+
+#header{
+    width: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+.center{
+    justify-content:center;
+    align-items: center;
+    text-align: justify;
+}
