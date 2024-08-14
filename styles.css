@@ -6,7 +6,7 @@ html,body{
 
 #central-body{
     margin: auto;
-    width: 50vw;
+    width: 60vw;
 }
 
 @media (max-width: 480px) {
@@ -37,4 +37,48 @@ header{
     justify-content:center;
     align-items: center;
     text-align: justify;
+    margin: auto;
+}
+
+#schedule-table{
+    width: fit-content;
+    margin: auto;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.panelist-info-row-1{
+    width: 30%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.panelist-info-row-2{
+    width: 45%;
+    text-align: center;
+    justify-content: space-evenly;    
+}
+
+a { 
+    text-decoration: none;
+} 
+
+.bio-img{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    height: 10px;
 }
