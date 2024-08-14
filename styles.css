@@ -1,17 +1,18 @@
 html,body{
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #central-body{
     margin: auto;
-    margin: 5px;
     width: 50vw;
 }
 
 @media (max-width: 480px) {
     #central-body{
         width: calc(100vw - 10px);
+        margin: 5px;
     }
 }
 
@@ -22,7 +23,7 @@ header{
     font-size: 24px;
     background-color: #008080;
     padding: 10px 0;
-    color: #black;
+    color: black;
     border: black 1px solid;
 }
 
