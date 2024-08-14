@@ -16,7 +16,17 @@ html,body{
     }
 }
 
+.header-imgs{
+    width: calc(100vw - 10px);
+}
 
+.header-img{
+    width: calc(100% / 8);
+}
+
+.header-img-break{
+    width: 50px;
+}
 
 header{
     width: calc(100% - 2px);
