@@ -9,13 +9,6 @@ html,body{
     width: 60vw;
 }
 
-@media (max-width: 480px) {
-    #central-body{
-        width: calc(100vw - 10px);
-        margin: 5px;
-    }
-}
-
 .header-imgs{
     width: calc(100vw - 10px);
 }
@@ -91,4 +84,28 @@ a {
 
 footer{
     height: 10px;
+}
+
+@media (max-width: 480px) {
+    #central-body{
+        width: calc(100vw - 10px);
+        margin: 5px;
+    }
+
+    .header-imgs{
+        display: flex;
+        flex-direction: row!important;
+    }
+
+    .flex-row{
+        flex-direction: column;
+    }
+
+    .panelist-info-row-1 {
+        width: 80%;
+    }
+
+    .panelist-info-row-2{
+        width: 80%;
+    }
 }
