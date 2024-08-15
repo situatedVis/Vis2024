@@ -10,7 +10,7 @@ html,body{
 }
 
 .header-imgs{
-    width: calc(100vw - 10px);
+    width: calc(60vw - 10px);
 }
 
 .header-img{
