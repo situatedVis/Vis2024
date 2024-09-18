@@ -61,6 +61,15 @@ header{
     gap: 10px;
 }
 
+.panelist-info{
+    width: 220px;
+    text-align: center;
+    justify-content: space-evenly;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 4px 4px lightblue;
+}
 .panelist-info-row-1{
     width: 30%;
     text-align: center;
@@ -80,6 +89,7 @@ a {
 .bio-img{
     width: 200px;
     height: 200px;
+    padding: 10px;
 }
 
 footer{
